@@ -99,6 +99,38 @@ public class NestedLoop {
         }
         
         System.out.println(" ");
+        System.out.println(" ");
+        System.out.println("Bentuk segitiga dengan bintang sama kaki");
+        System.out.println(" ");
+        
+        for(int x = 1; x<=6; x++){
+            //loop luar
+            
+            for(int y = 5; y>=x; y--){
+                //loop dalam ke 1
+                System.out.print(" ");
+                // membentuk spasi kesamping
+            }
+            
+            for(int z = 1; z<=x; z++){
+                //loop dalam ke 2
+                System.out.print("*");
+                // untuk menampilkan barisan bintang terbalik dari kanan ke kiri
+            }
+            
+            
+            for(int a = 1; a<=x-1;a++){
+                //loop dalam ke 3
+                System.out.print("*");
+                // untuk menampilkan barisan bintang terbalik dari kiri ke kanan
+            }
+                        
+            
+            System.out.println(); // untuk membentuk spasi kebawah
+           
+
+            
+        }
         
     }
 }
