@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author come.said
+ * @author saidalbaqi
  */
 public class inputUser_Joption {
     public static void main(String[] args) {

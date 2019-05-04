@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author comesaid
+ * @author saidalbaqi
  */
 public class try_catch {
     public static void main(String[] args) {
@@ -17,6 +17,9 @@ public class try_catch {
         String userInput = JOptionPane.showInputDialog("Pilihlah Bangun datar yang ingin anda hitung luasnya : \n 1. Luas Persegi Panjang \n 2. Luas Trapesium \n 3. Luas Lingkaran \n 4. Keluar Program");
         int pilihanBangunDatar = Integer.parseInt(userInput);
      
+        if ( pilihanBangunDatar <0 || pilihanBangunDatar > 4){
+            JOptionPane.showMessageDialog(null, "Maaf Input yang anda berikan salah");
+        }else{
         if ( pilihanBangunDatar == 1 ){
             // Luas Persegi Panjang
             // Input Panjang Persegi
@@ -69,6 +72,7 @@ public class try_catch {
         }
         
       }
+         }
       
         catch (Exception e ) {
             JOptionPane.showMessageDialog(null, "Input yang anda Masukkan salah!");

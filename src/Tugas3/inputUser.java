@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author come.said
+ * @author saidalbaqi
  */
 
 public class inputUser {

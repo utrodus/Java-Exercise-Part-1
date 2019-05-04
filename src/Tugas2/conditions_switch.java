@@ -7,7 +7,7 @@ package Tugas2;
 
 /**
  *
- * @author come.said
+ * @author saidalbaqi
  */
 public class conditions_switch {
     public static void main(String[] args) {

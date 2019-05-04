@@ -7,7 +7,7 @@ package Tugas5;
 
 /**
  *
- * @author comesaid
+ * @author saidalbaqi
  */
 public class looping3 {
 

@@ -7,14 +7,14 @@ package Tugas2;
 
 /**
  *
- * @author come.said
+ * @author saidalbaqi
  */
 public class conditions {
     public static void main(String[] args) {
         // Program konversi nilai angka menjadi huruf
         
         // Membuat variable dan memasukkan nilainya
-        int nilaiAngka = 90;
+        int nilaiAngka = 91;
         
         // merubah nilainya
         if(nilaiAngka < 0 || nilaiAngka > 100) {
